@@ -14,8 +14,8 @@ import {
   AppRegistry,
   Image,
   ScrollView,
-  Dropdown
-
+  Dropdown,
+  Picker,
 } from 'react-native';
 
 import { StackNavigator } from 'react-navigation';
@@ -48,6 +48,11 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(0,0,0,0)'
   },
 
+  itemInput: {
+    flexDirection: 'row',
+  },
+
+
 })
 
 
@@ -55,7 +60,8 @@ export default class Add extends Component {
 
   state = {
     categoriesPressed: false,
-    manualPressed: false
+    manualPressed: false,
+    type: null,
   }
 
   static navigationOptions = {
@@ -112,151 +118,56 @@ export default class Add extends Component {
             color: '#FFFFFF',
           }}>ADD EXPENSE</Text>
         </View>
-        <View>
-          <TouchableOpacity
-            onPress={() => this.onPressBox("categories")}>
-            <View style={{backgroundColor: 'powderblue', height: height(26),}}>
-              <Text style={{
-                  color: 'rgba(0,0,0,0.5)',
-                  fontFamily:'quicksand_bold',
-                  fontSize: totalSize(4),
-                  marginTop: height(12),
-                  textAlign: 'center'
-                }}>CATEGORIES</Text>
-            </View>
-          </TouchableOpacity>
 
-          <TouchableOpacity>
-            <View style={{
-              backgroundColor: (this.state.categoriesPressed === true ? 'white': 'rgba(0,0,0,0)'),
-              height: (this.state.categoriesPressed === true ? height(8): height(0)),
-            }}>
-              <Text style={{
-                color: (this.state.categoriesPressed === true ? 'rgba(0,0,0,0.5)': 'rgba(0,0,0,0)'),
-                textAlign: 'center',
-                padding: 20,
-                fontFamily: 'Lato',
-                fontSize: totalSize(2),
-              }}>Food</Text>
-            </View>
-          </TouchableOpacity>
 
-          <TouchableOpacity>
-            <View style={{
-              backgroundColor: (this.state.categoriesPressed === true ? 'rgba(0,0,0,0.05)': 'rgba(0,0,0,0)'),
-              height: (this.state.categoriesPressed === true ? height(8): height(0)),
-            }}>
-              <Text style={{
-                color: (this.state.categoriesPressed === true ? 'rgba(0,0,0,0.5)': 'rgba(0,0,0,0)'),
-                textAlign: 'center',
-                padding: 20,
-                fontFamily: 'Lato',
-                fontSize: totalSize(2),
-              }}>Entertainment</Text>
-            </View>
-          </TouchableOpacity>
+        <View style={{backgroundColor: '#FCFCFE',}}>
+          <View style={styles.itemInput}>
+            <Text style={{
+              padding: totalSize(1),
+              fontSize: totalSize(2.5),
+            }}>Item: </Text>
+            <TextInput style={{
+              fontSize: totalSize(2),
+              marginTop: height(1),
+            }}/>
+          </View>
 
-          <TouchableOpacity>
-            <View style={{
-              backgroundColor: (this.state.categoriesPressed === true ? 'white': 'rgba(0,0,0,0)'),
-              height: (this.state.categoriesPressed === true ? height(8): height(0)),
-            }}>
-              <Text style={{
-                color: (this.state.categoriesPressed === true ? 'rgba(0,0,0,0.5)': 'rgba(0,0,0,0)'),
-                textAlign: 'center',
-                padding: 20,
-                fontFamily: 'Lato',
-                fontSize: totalSize(2),
-              }}>Clothing</Text>
-            </View>
-          </TouchableOpacity>
+          <View style={styles.itemInput}>
+            <Text style={{
+              padding: totalSize(1),
+              fontSize: totalSize(2.5),
+            }}>Price: </Text>
+            <TextInput style={{
+              fontSize: totalSize(2),
+              marginTop: height(1),
+            }}/>
+          </View>
 
-          <TouchableOpacity>
-            <View style={{
-              backgroundColor: (this.state.categoriesPressed === true ? 'rgba(0,0,0,0.05)': 'rgba(0,0,0,0)'),
-              height: (this.state.categoriesPressed === true ? height(8): height(0)),
-            }}>
-              <Text style={{
-                color: (this.state.categoriesPressed === true ? 'rgba(0,0,0,0.5)': 'rgba(0,0,0,0)'),
-                textAlign: 'center',
-                padding: 20,
-                fontFamily: 'Lato',
-                fontSize: totalSize(2),
-              }}>Accessories</Text>
-            </View>
-          </TouchableOpacity>
+          <View>
+            <Text style={{
+              padding: totalSize(1),
+              fontSize: totalSize(2.5),
+            }}>Type: </Text>
+            <Picker
+              selectedValue={this.state.type}
+              onValueChange={(itemValue, itemIndex) => this.setState({type: itemValue})}>
+              <Picker.Item label="Food" value="food" />
+              <Picker.Item label="Entertainment" value="entertainment" />
+            </Picker>
+          </View>
 
-          <TouchableOpacity>
-            <View style={{
-              backgroundColor: (this.state.categoriesPressed === true ? 'white': 'rgba(0,0,0,0)'),
-              height: (this.state.categoriesPressed === true ? height(8): height(0)),
-            }}>
-              <Text style={{
-                color: (this.state.categoriesPressed === true ? 'rgba(0,0,0,0.5)': 'rgba(0,0,0,0)'),
-                textAlign: 'center',
-                padding: 20,
-                fontFamily: 'Lato',
-                fontSize: totalSize(2),
-              }}>Arts</Text>
-
-              <TouchableOpacity>
-                <View style={{
-                  backgroundColor: (this.state.categoriesPressed === true ? 'rgba(0,0,0,0.05)': 'rgba(0,0,0,0)'),
-                  height: (this.state.categoriesPressed === true ? height(8): height(0)),
-                }}>
-                  <Text style={{
-                    color: (this.state.categoriesPressed === true ? 'rgba(0,0,0,0.5)': 'rgba(0,0,0,0)'),
-                    textAlign: 'center',
-                    padding:20,
-                    fontFamily: 'Lato',
-                    fontSize: totalSize(2),
-                  }}>Miscellaneous</Text>
-                </View>
-              </TouchableOpacity>
-
-            </View>
-          </TouchableOpacity>
-
-          <TouchableOpacity
-            onPress= {() => this.onPressBox("manual")}>
-            <View style={{
-              backgroundColor: 'skyblue',
-              width: width(100),
-              height:height(27),
-            }}>
-              <Text style={{
-                  color: 'rgba(0,0,0,0.5)',
-                  fontFamily:'quicksand_bold',
-                  fontSize: totalSize(4),
-                  marginTop: height(12),
-                  textAlign: 'center'
-                }}>PRICE</Text>
-            </View>
-          </TouchableOpacity>
-
-          <TextInput style={{
-            borderColor: this.state.manualPressed === false ? 'rgba(0,0,0,0)' : '#ffb0a3',
-            height: (this.state.manualPressed === true ? height(8): height(0)),
-            borderWidth: this.state.manualPressed === false? 0: 1,
-            padding: (this.state.manualPressed === true ? 10: 0),
-          }} placeholder="" />
-
-          <TouchableOpacity>
-            <View style={{
-              backgroundColor: 'steelblue',
-              width: width(100),
-              height:height(27),
-            }}>
-              <Text style={{
-                  color: 'rgba(0,0,0,0.5)',
-                  fontFamily:'quicksand_bold',
-                  fontSize: totalSize(4),
-                  marginTop: height(12),
-                  textAlign: 'center'
-                }}>CAMERA</Text>
-            </View>
-          </TouchableOpacity>
+          <View style={styles.itemInput}>
+            <Text style={{
+              padding: totalSize(1),
+              fontSize: totalSize(2.5),
+            }}>Location: </Text>
+            <TextInput style={{
+              fontSize: totalSize(2),
+              marginTop: height(1),
+            }}/>
+          </View>
         </View>
+
         <View style={{backgroundColor: '#FCFCFE', paddingBottom: width(5)}}>
           <View style={{
             flexDirection: 'row',
