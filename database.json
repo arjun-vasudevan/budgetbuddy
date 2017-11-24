@@ -9,31 +9,32 @@
       {"name": "Starbucks", "spent": "$90.15", "id": 1},
       {"name": "Starbucks", "spent": "$5.39", "id": 2},
       {"name": "Walmart", "spent": "$134.95", "id": 3},
-      {"name": "Costco", "spent": "$195.20", "id": 4},
-      {"name": "McDonalds", "spent": "$4.55", "id": 5},
+      {"name": "Costco", "spent": "$84.20", "id": 4},
+      {"name": "McDonalds", "spent": "$4.55", "id": 5}
     ],
     "all": [
       {"name": "Starbucks", "spent": "$90.15", "id": 1},
       {"name": "Starbucks", "spent": "$5.39", "id": 2},
       {"name": "Walmart", "spent": "$134.95", "id": 3},
-      {"name": "Costco", "spent": "$195.20", "id": 4},
+      {"name": "Costco", "spent": "$84.20", "id": 4},
       {"name": "McDonalds", "spent": "$4.55", "id": 5},
-      {"name": "Bill", "spent": "$999.90", "id": 6},
+      {"name": "Bills", "spent": "$999.90", "id": 6},
       {"name": "Starbucks", "spent": "$9.50", "id": 7},
       {"name": "H&M", "spent": "$90.80", "id": 8},
       {"name": "Home Depot", "spent": "$35.01", "id": 9},
       {"name": "Subway", "spent": "$9.65", "id": 10},
       {"name": "Starbucks", "spent": "$4.50", "id": 11},
       {"name": "Starbucks", "spent": "$40.90", "id": 12}
-    ]
+    ],
+    "total": 505.05
   },
   "categories": {
     "values": [
-      {"name": "Food and Drink", "spent": "$60.35"},
-      {"name": "Clothing", "spent": "$100.13"},
+      {"name": "Food and Drink", "spent": "$164.64"},
+      {"name": "Clothing", "spent": "$90.80"},
       {"name": "Entertainment", "spent": "$45.30"},
-      {"name": "Groceries", "spent": "90.84"},
-      {"name": "Bills", "spent": "$1500.64"}
+      {"name": "Groceries", "spent": "$219.15"},
+      {"name": "Bills", "spent": "$999.90"}
     ]
   },
   "totals": {
@@ -45,6 +46,18 @@
       {"name": "REWARDS", "dollar": "$11.03"}
     ]
   },
-
-
+  "quotes": {
+    "strings": [
+      {"quote": "A budget tells us what we can't afford, but it doesn't keep us from buying it.", "author": "William Feather"},
+      {"quote": "If you want creativity, take a zero off your budget. If you want sustainability, take off two zeros.", "author": "Jaime Lerner"},
+      {"quote": "The cold harsh reality is that we have to balance the budget.", "author": "Michael Bloomberg"},
+      {"quote": "It isn't what you earn but how you spend it that fixes your class.", "author": "Sinclair Lewis"},
+      {"quote": "We must consult our means rather than our wishes.", "author": "George Washington"},
+      {"quote": "When it comes to money and so many other things in life, understanding your weaknesses and strengths can help you with your future plans.", "author": "Tagene Brown-McBean"},
+      {"quote": "Every cent you own and every moment you spend is always an investment.", "author": "Natalie Pace"},
+      {"quote": "Money is a terrible master but an excellent servant.", "author": "P.T. Barnum"},
+      {"quote": "A goal without a timeline is just a dream.", "author": "Robert Herjavec"},
+      {"quote": "A budget is telling your money where to go instead of wondering where it went.", "author": "Dave Ramsey"}
+    ]
+  }
 }

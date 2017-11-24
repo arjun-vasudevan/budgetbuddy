@@ -1,4 +1,4 @@
-#Wed Nov 22 10:15:25 EST 2017
-base.0=/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Thu Nov 23 22:31:27 EST 2017
+base.0=C\:\\Users\\Pranav Krishnan\\Documents\\budgetbuddy\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.0=/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.0=C\:\\Users\\Pranav Krishnan\\Documents\\budgetbuddy\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

@@ -1,10 +1,6 @@
 [
     {
-        "merged": "/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
-        "source": "/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/C:\\Users\\Pranav Krishnan\\Developer\\BudgetBuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
-        "source": "/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/C:\\Users\\Pranav Krishnan\\Developer\\BudgetBuddy\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Pranav Krishnan\\Documents\\budgetbuddy\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Pranav Krishnan\\Documents\\budgetbuddy\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }
 ]

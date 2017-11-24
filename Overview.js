@@ -39,8 +39,7 @@ const styles=StyleSheet.create({
 export default class Overview extends Component{
 
   state = {
-    amount: 673.50,
-    percentBudget: 75,
+
   }
 
   static navigationOptions = {
@@ -66,14 +65,14 @@ export default class Overview extends Component{
     return (
         <View>
             <View style={{
-              height: height(8), backgroundColor: "#74a8fc",}}>
+              height: height(8), backgroundColor: "#429F46",}}>
               <Text style={{
                 textAlign: 'center',
                 fontFamily: 'quicksand_bold',
                 fontSize: 28,
                 marginTop: height(2),
                 color: '#FFFFFF',
-              }}>BUDGET BUDDY</Text>
+                }}>BUDGET BUDDY</Text>
             </View>
         <View style={{backgroundColor: '#FCFCFE',}}>
           <StatusBar
@@ -85,7 +84,7 @@ export default class Overview extends Component{
             textAlign: 'center',
             fontFamily: 'Lato',
             fontSize: 60,
-          }}>${this.state.amount}</Text>
+          }}>${database.transactions.total}</Text>
 
           <View style={{
             flex: 1,
@@ -97,12 +96,13 @@ export default class Overview extends Component{
              marginTop: height(5),
              height: height(2),
              borderRadius: 10,
-             borderWidth: 0.5,
+             borderWidth: 0.75,
+             borderColor: "#429F46",
              backgroundColor: "rgba(255,255,255,1)"
            }}>
              <View style={{
-               backgroundColor: "#74a8fc",
-               width: width(this.state.percentBudget),
+               backgroundColor: "#429F46",
+               width: width(53),
                height: height(2),
                borderRadius: 10,
              }}/>
@@ -134,32 +134,30 @@ export default class Overview extends Component{
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <View>
+            <Text style = {{
+              marginTop: height(4),
+              marginLeft: width(5),
+              fontFamily: 'Lato',
+              fontWeight: 'bold',
+              fontSize: 18,
+            }}>CATEGORIES</Text>
             <View>
-              <Text style = {{
-                marginTop: height(5),
-                marginLeft: width(5),
-                fontFamily: 'Lato',
-                fontWeight: 'bold',
-                fontSize: 18,
-              }}>CATEGORIES</Text>
-              <View>
-                {database.categories.values.map((item, index) => (
-                    <View style={{
-                      flexDirection: 'row',
-                      justifyContent: 'flex-start',
-                      alignItems: 'center',
-                    }} key={index}>
-                      <Text style={styles.item}>{item.name}</Text>
-                      <Text style={styles.price}>{item.spent}</Text>
-                    </View>
-                  ))
-                }
-              </View>
+              {database.categories.values.map((item, index) => (
+                  <View style={{
+                    flexDirection: 'row',
+                    justifyContent: 'flex-start',
+                    alignItems: 'center',
+                  }} key={index}>
+                    <Text style={styles.item}>{item.name}</Text>
+                    <Text style={styles.price}>{item.spent}</Text>
+                  </View>
+                ))
+              }
             </View>
-          </TouchableOpacity>
+          </View>
           <Text style = {{
-            marginTop: height(3),
+            marginTop: height(4),
             marginLeft: width(5),
             fontFamily: 'Lato',
             fontWeight: 'bold',
@@ -168,10 +166,10 @@ export default class Overview extends Component{
           <Text style = {{
             marginTop: height(2),
             marginLeft: width(5),
-            marginBottom: height(2),
+            marginBottom: height(6),
             width: width(90),
             fontFamily: 'Lato',
-          }}>It's not your salary that makes you rich, it's your spending habits. Make sure to always stick to the budget!</Text>
+          }}>{database.quotes.strings[Math.floor(Math.random() * 10)].quote}</Text>
         </View>
         <View style={{backgroundColor: '#FCFCFE', paddingBottom: width(5)}}>
           <View style={{
@@ -180,16 +178,15 @@ export default class Overview extends Component{
             alignItems: 'center',
             width: width(90),
             marginLeft: width(12),
-            marginTop: height(3),
           }}>
             <TouchableOpacity onPress={() => this._onPressButton('Overview', navigate)}>
                 <Image source = {require('./images/overview.png')} style={{
                   width: width(7),
                   height: height(3),
-                  tintColor: '#74a8fc',
+                  tintColor: '#429F46',
                   marginLeft: width(1.5)
                 }} />
-                <Text style={{fontFamily: 'lato_bold', fontSize: 12, marginTop: height(1), color: '#74a8dc'}}>Overview</Text>
+                <Text style={{fontFamily: 'lato_bold', fontSize: 12, marginTop: height(1), color: '#429F46'}}>Overview</Text>
             </TouchableOpacity>
             <TouchableOpacity style={{marginLeft: width(13)}} onPress={() => this._onPressButton('Profile', navigate)}>
                 <Image source = {require('./images/profile.png')} style={{

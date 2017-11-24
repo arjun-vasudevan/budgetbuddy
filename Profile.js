@@ -146,11 +146,11 @@ export default class Profile extends Component {
             <TouchableOpacity style={{marginLeft: width(13)}} onPress={() => this._onPressButton('Profle', navigate)}>
                 <Image source = {require('./images/profile.png')} style={{
                   width: width(7),
-                  tintColor: '#74a8fc',
+                  tintColor: '#429F46',
                   height: height(3),
                   marginLeft: width(1.5)
                 }} />
-                <Text style={{fontFamily: 'lato_bold', fontSize: 12, marginTop: height(1), marginLeft: width(1.3),  color:'#74a8dc'}}>Profile</Text>
+                <Text style={{fontFamily: 'lato_bold', fontSize: 12, marginTop: height(1), marginLeft: width(1.3),  color:'#429F46'}}>Profile</Text>
             </TouchableOpacity>
             <TouchableOpacity  style={{marginLeft: width(12)}} onPress={() => this._onPressButton('Transactions', navigate)}>
                 <Image source = {require('./images/transactions.png')} style={{

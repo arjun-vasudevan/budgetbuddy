@@ -3,237 +3,228 @@
 
     <item
         is-multidex="false"
-        jar="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_50b7cf685a6734a0dbcbb9c1856429951381ef21.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.4/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.4_bc8f03ef9f2209b2e45fbe42d75abd706a07b2c1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="24303e5ddb2c1210dd7e8db9dbab018f50313e48">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.50.3_b8b070ff21229d562e0f40f9b64d40a070ec2f74.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_2b69d8691fad6f3e3f29ae6705cecd1aa84788fb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_a0f0b7776431d974fb32bc7b44f55e24ac94a695.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_a2ad4630215225067a6f03c36c1805ee2285d1a7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_a017c8b66770ac53136f5a4e87f60a9c9e997d3d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_cf9d2200441593f2ea74b214f7773b84ab410608.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/exploded-aar/BudgetBuddy/react-native-maps/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5ab151698a7278176c9e6a60b6e18dbb4bebdf9f">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/BudgetBuddy-react-native-maps-unspecified_a9c9c061109021829c9a5109b9c0019969b7934c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.4/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.2.4_096901601d37d4fa0fe726ba6b2c373c1a6ba389.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.4/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.2.4_3b1f5cfbf3080fdfe9c267f5db35d9ae22792096.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_1b75b6e63d43b50a83417ed81acbfabecc6d3b57.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_5bf614b79da614f0d8da8e44346719845339bc61.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_46b235e63fcd8209ace6c065021565c7738ba979.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_4ab4c88841acd507fe39358772f0c192730bf5b5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.4/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6d0d5e86f5b7203834df01ed78ebfdd5cbf74d48">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.2.4_7b1ada9fb48e651e658672e1acea541c83f235ca.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_56169dadcf310018962eb36be085c52163064c42.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_969ef8d8c82625bce2231988d773b8cedee96db6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_06f730575c1b1e7b3cc5520054118d13c0d485ed.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_cd7064d931317891be3bade655a023b395edf5f8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_d0ba6f17f77027054d638df7943043bbb372ab29.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_71b022305736fee34388a93353b2fc9ea9ae0f09.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_ba674d96782ad4565c4c591fcdb62ac2fc3812f1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_bf5758a006b4577e7a415457e69b9455043c5cc7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_c820751771a8ded978436a6a6f8ef4c1bbd5147a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Jesse/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jar="C:\Users\Pranav Krishnan\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/Users/Jesse/Documents/Apps/Github/budgetbuddy/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_c40d784b136e3ce3ca0fe8bc7f0db29d055f8360.jar" />
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_7592d06826c374c3002168fc6525dd1e446b9657.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.50.3\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_1148a84b506ea8570eebe9a0994fc4ad5e1d6a99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_0fb25a9b4779b739a6e0128eb8ac922583771b5a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_413c6b465067cc9c5e39a1499573c4c82e77bf3f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_52bd0de0063811fd8e2d27f7ce9f31ae90186814.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_6c3a576a9a8a1b410d67449e9010c343f025fefb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_fdc24fe4fdc2bb0f2a36b67c6db8dad2105b4839.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_7ffffe2140e38e7efc9577de26f029980a532936.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\core-3.2.1_30bb0f255f32037e421f6c54d742a4941928327b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\.gradle\caches\modules-2\files-2.1\com.drewnoakes\metadata-extractor\2.9.1\53fdf22be10c9d426ec63431c7342895bc642261\metadata-extractor-2.9.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="53fdf22be10c9d426ec63431c7342895bc642261">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\metadata-extractor-2.9.1_d3032d8d8a868b841c26aa9c09e2f53d2de4b798.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_0108d33c2e96dd7a8cbd28675e622e372624212e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_a75c2a33d77395c9e6ea1d3273be866c2a08db0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\exploded-aar\BudgetBuddy\react-native-camera\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a056c4dcbba5eed338d89161ddc64f427293938">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\BudgetBuddy-react-native-camera-unspecified_a7ff962f1e34c74faeda21414aa70e0f4f6977f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\.gradle\caches\modules-2\files-2.1\com.adobe.xmp\xmpcore\5.1.2\55615fa2582424e38705487d1d3969af8554f637\xmpcore-5.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="55615fa2582424e38705487d1d3969af8554f637">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\xmpcore-5.1.2_7863fefa3a76b397d14d35d8ebfeb02ab7dc46d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_131b8b0bf2c32aa9133dd858b89bccddc8c3f4cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_27e8f02490a0c531046907635bb19cc6295c14d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_2697597b826c00b4240184567938212e85485b75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_b7bd5fb47dd6a64a22b382fe1090d15b1d89e271.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_07e959d3a6c113832ef55363e718b6c4eaa5b547.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_1123ea4158bb8a1ceb39ebf96d9b11a12ec4bdf6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_fc6c546d112fbf5a97b48fac17064eb7f9ff766c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_2b6e7465b5a8087c9705a87a74bbbfae4c28195c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.50.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="24303e5ddb2c1210dd7e8db9dbab018f50313e48">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.50.3_c62b52e0548e81161d084628bba2066763cea7bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_045b14d7cbe7e69cb68c44024e50cde9f092d473.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Pranav Krishnan\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\Pranav Krishnan\Documents\budgetbuddy\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_98b992bee89e7655128694e3244bdf22b858fd25.jar" />
     </item>
 
 </items>

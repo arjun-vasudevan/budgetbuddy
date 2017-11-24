@@ -36,10 +36,10 @@ item: {
    alignItems: 'center',
    padding: 10,
    marginBottom: height(0.2),
-   marginLeft: width(5),
-   marginRight: width(5),
+   borderBottomWidth: 1,
+   marginLeft: width(4),
+   marginRight: width(3),
    borderColor: "#D8D8D8",
-   borderWidth: 2,
    backgroundColor: 'rgba(275,275,275,0.4)',
 }
 })
@@ -77,7 +77,7 @@ export default class Transactions extends Component {
     <View style={{backgroundColor:'#FCFCFE', width: width(100), height: height(100)}}>
         <View style={{
           height: height(8),
-          backgroundColor: '#74a8fc',
+          backgroundColor: '#429F46',
         }}>
           <Text style={{
             textAlign: 'center',
@@ -140,10 +140,10 @@ export default class Transactions extends Component {
                 <Image source = {require('./images/transactions.png')} style={{
                   width: width(7),
                   height: height(3),
-                  tintColor: '#74a8fc',
+                  tintColor: '#429F46',
                   marginLeft: width(2.3)
                 }} />
-                <Text style={{fontFamily: 'lato_bold', fontSize: 12, marginTop: height(1), color:'#74a8dc'}}>Transactions</Text>
+                <Text style={{fontFamily: 'lato_bold', fontSize: 12, marginTop: height(1), color:'#429F46'}}>Transactions</Text>
             </TouchableOpacity>
             <TouchableOpacity  style={{marginLeft: width(12)}} onPress={() => this._onPressButton('Add', navigate)}>
                 <Image source = {require('./images/add.png')} style={{
