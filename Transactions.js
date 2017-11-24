@@ -13,7 +13,7 @@ import {
   ImageBackground,
   AppRegistry,
   Image,
-  ScrollView
+  ScrollView,
 
 } from 'react-native';
 
@@ -29,24 +29,36 @@ const styles = StyleSheet.create({
   flex: 1,
   width: width(100),
   height: height(100),
-},
-item: {
-   flexDirection: 'row',
-   justifyContent: 'space-between',
-   alignItems: 'center',
-   padding: 10,
-   marginBottom: height(0.2),
-   borderBottomWidth: 1,
-   marginLeft: width(4),
-   marginRight: width(3),
-   borderColor: "#D8D8D8",
-   backgroundColor: 'rgba(275,275,275,0.4)',
-}
+  },
+  item: {
+     flexDirection: 'row',
+     justifyContent: 'space-between',
+     alignItems: 'center',
+     padding: 10,
+     marginBottom: height(0.2),
+     borderBottomWidth: 1,
+     marginLeft: width(4),
+     marginRight: width(3),
+     borderColor: "#D8D8D8",
+     backgroundColor: 'rgba(275,275,275,0.4)',   
+  },
+
+  text: {
+    fontFamily: 'Lato',
+    color: '#969696',
+    marginTop: height(1),
+    fontSize: totalSize(1.5),
+    marginLeft: width(1),
+    padding:5,
+  },
 })
 
 export default class Transactions extends Component {
 
   state = {
+    data: [40, 53, 10, 23, 80],
+    color: ['#f23737', '#fca87e','#8cfc7e','#7eeffc','#bc89ff'],
+    indicators: ['Food and Drink', 'Clothing', 'Entertainment', 'Groceries', 'Bills']
   }
 
   static navigationOptions = {
@@ -88,7 +100,24 @@ export default class Transactions extends Component {
 
           }}>RECENT TRANSACTIONS</Text>
         </View>
-        <Image source= {require('./images/Graph.png')} style={{marginTop: height(2), marginLeft: width(1), marginRight: width(1), flex:1, height: undefined, width: undefined}} resizeMode="contain"/>
+
+        <View style={{ flex: 1,}}>
+          <View>
+            {this.state.data.map((value, index) =>
+              <View key={index}>
+                <Text style={styles.text}>{this.state.indicators[index]}</Text>
+
+                <View style={{
+                  backgroundColor: this.state.color[index],
+                  height: height(3),
+                  width: width(this.state.data[index]), // Changed
+                  borderTopRightRadius: 4,
+                  borderBottomRightRadius: 4,}} value={value}/>
+                </View>
+            )}
+          </View>
+        </View>
+
         <Text style={{
           fontFamily:'Lato',
           marginLeft: width(5),
